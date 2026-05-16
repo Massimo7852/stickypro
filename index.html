@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sticky Pro — Privacy Policy</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            max-width: 760px;
+            margin: 0 auto;
+            padding: 40px 24px;
+            line-height: 1.6;
+            color: #2c3e50;
+            background: #fafafa;
+        }
+        h1 { font-size: 28px; border-bottom: 2px solid #f4d342; padding-bottom: 8px; }
+        h2 { font-size: 20px; margin-top: 32px; color: #1a1a1a; }
+        h3 { font-size: 16px; margin-top: 20px; color: #444; }
+        code { background: #f0f0f0; padding: 2px 5px; border-radius: 3px; font-size: 0.9em; }
+        .meta { color: #888; font-size: 14px; margin-bottom: 32px; }
+        .lang-switch { text-align: right; margin-bottom: 16px; }
+        .lang-switch a { margin-left: 12px; text-decoration: none; color: #888; font-size: 13px; }
+        .lang-switch a:hover { color: #1a1a1a; }
+        ul { padding-left: 22px; }
+        li { margin: 4px 0; }
+        .summary { background: #fffcdf; border-left: 4px solid #f4d342; padding: 12px 16px; border-radius: 4px; margin: 16px 0; }
+        footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid #ddd; font-size: 13px; color: #888; text-align: center; }
+    </style>
+</head>
+<body>
+
+<div class="lang-switch">
+    <a href="#en">EN</a> <a href="#it">IT</a> <a href="#fr">FR</a> <a href="#es">ES</a> <a href="#de">DE</a>
+</div>
+
+<!-- ============== ENGLISH ============== -->
+<section id="en">
+<h1>Sticky Pro — Privacy Policy</h1>
+<p class="meta">Effective date: 2026-05-16 · Last updated: 2026-05-16 · Version 1.5</p>
+
+<div class="summary">
+    <strong>Short version:</strong> Sticky Pro stores your notes locally on your Mac and (optionally) syncs them through your own Apple iCloud account. We do not run any server, do not collect analytics, do not track you, and do not see your notes.
+</div>
+
+<h2>1. What Sticky Pro is</h2>
+<p>Sticky Pro is a sticky notes application for macOS. It is published by <strong>Massimo Del Pizzo</strong> (Italy). Contact: <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+
+<h2>2. Data we collect</h2>
+<p><strong>None directly.</strong> Sticky Pro does not communicate with any server operated by the publisher. All data created in the app stays on your Mac unless you choose to enable optional features described below.</p>
+
+<h2>3. Where your notes are stored</h2>
+<ul>
+    <li><strong>Local storage</strong> (always): notes metadata in <code>UserDefaults</code>; audio/photo/video files in <code>~/Library/Application Support/StickyPro/</code> on your Mac.</li>
+    <li><strong>iCloud sync</strong> (optional, controlled by macOS): if you are signed in to iCloud and iCloud Drive is enabled, notes metadata is synced via Apple's <code>NSUbiquitousKeyValueStore</code> and media files via your private iCloud Documents container <code>iCloud.com.massimo.StickyPro</code>. Data flows through Apple's iCloud — we never see it. iCloud is governed by <a href="https://www.apple.com/legal/privacy/">Apple's Privacy Policy</a>.</li>
+</ul>
+
+<h2>4. Optional features that involve third parties</h2>
+
+<h3>4.1 AI actions (Anthropic Claude)</h3>
+<p>If you provide your own Anthropic API key in Settings, the AI actions (⌘J) send the selected text or note content to Anthropic's servers for processing. We don't relay or store this data. Your API key stays on your Mac. Anthropic's data handling is governed by <a href="https://www.anthropic.com/legal/privacy">Anthropic's Privacy Policy</a>. This feature is disabled by default.</p>
+
+<h3>4.2 Local network sharing</h3>
+<p>The "Send to LAN" feature (✈ button) uses Apple's MultipeerConnectivity framework to find other Macs running Sticky Pro on the same Wi-Fi network and send a copy of the note. Communication is end-to-end encrypted (TLS-like) and stays inside your local network. No internet involved.</p>
+
+<h2>5. On-device processing</h2>
+<ul>
+    <li><strong>Speech-to-text</strong> (dictation): processed offline by Apple's Speech framework. Audio never leaves your Mac.</li>
+    <li><strong>OCR</strong> on pasted images: processed offline by Apple's Vision framework. Images never leave your Mac.</li>
+    <li><strong>Encryption</strong> (private notes): AES-GCM 256-bit with a key stored in macOS Keychain, protected by Touch ID. The key never leaves your Mac. Biometric data is handled by Apple, never accessed by us.</li>
+</ul>
+
+<h2>6. Permissions Sticky Pro asks for</h2>
+<ul>
+    <li><strong>Microphone</strong>: only when you start a voice note (🎤) or dictation (💬).</li>
+    <li><strong>Camera</strong>: only when you take a photo (📷) or record a video (🎥).</li>
+    <li><strong>Speech Recognition</strong>: for dictation and audio note transcription.</li>
+    <li><strong>Local Network</strong>: for LAN sharing.</li>
+    <li><strong>Notifications</strong>: for snooze/reminders.</li>
+</ul>
+<p>You can revoke any of these in System Settings → Privacy & Security at any time.</p>
+
+<h2>7. No tracking, no analytics</h2>
+<p>Sticky Pro does not include any analytics SDK, crash reporter, advertising identifier, or telemetry. We do not know who uses the app or how.</p>
+
+<h2>8. Children's privacy</h2>
+<p>Sticky Pro is not directed to children under 13. It collects no personal data.</p>
+
+<h2>9. Data retention and deletion</h2>
+<p>You can delete any note at any time. Deleting the app from your Mac removes all local data. iCloud-synced data is removed via your Apple ID account; see Apple's documentation for managing iCloud data.</p>
+
+<h2>10. Changes to this policy</h2>
+<p>Any changes will be reflected on this page with an updated "Last updated" date.</p>
+
+<h2>11. Contact</h2>
+<p>For privacy questions write to <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+</section>
+
+<!-- ============== ITALIANO ============== -->
+<section id="it">
+<h1>Sticky Pro — Informativa sulla privacy</h1>
+<p class="meta">Data di entrata in vigore: 2026-05-16 · Ultimo aggiornamento: 2026-05-16 · Versione 1.5</p>
+
+<div class="summary">
+    <strong>Versione breve:</strong> Sticky Pro salva le tue note localmente sul tuo Mac e (facoltativamente) le sincronizza tramite il tuo account Apple iCloud. Non gestiamo server, non raccogliamo analytics, non ti tracciamo, non vediamo le tue note.
+</div>
+
+<h2>1. Cos'è Sticky Pro</h2>
+<p>Sticky Pro è un'applicazione di note adesive per macOS. È pubblicata da <strong>Massimo Del Pizzo</strong> (Italia). Contatto: <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+
+<h2>2. Dati che raccogliamo</h2>
+<p><strong>Nessuno direttamente.</strong> Sticky Pro non comunica con alcun server gestito dall'editore. Tutti i dati creati nell'app restano sul tuo Mac, salvo le funzioni opzionali descritte sotto.</p>
+
+<h2>3. Dove sono salvate le tue note</h2>
+<ul>
+    <li><strong>Salvataggio locale</strong> (sempre): metadati delle note in <code>UserDefaults</code>; file audio/foto/video in <code>~/Library/Application Support/StickyPro/</code> sul tuo Mac.</li>
+    <li><strong>Sincronizzazione iCloud</strong> (opzionale, controllata da macOS): se sei autenticato in iCloud e iCloud Drive è attivo, i metadati delle note sono sincronizzati tramite <code>NSUbiquitousKeyValueStore</code> di Apple e i file media nel tuo container privato iCloud Documents <code>iCloud.com.massimo.StickyPro</code>. I dati passano attraverso iCloud di Apple — non li vediamo mai. iCloud è regolato dall'<a href="https://www.apple.com/legal/privacy/">Informativa privacy di Apple</a>.</li>
+</ul>
+
+<h2>4. Funzioni opzionali che coinvolgono terze parti</h2>
+
+<h3>4.1 Azioni AI (Anthropic Claude)</h3>
+<p>Se fornisci la tua API key Anthropic nelle Impostazioni, le azioni AI (⌘J) inviano il testo selezionato o il contenuto della nota ai server di Anthropic per l'elaborazione. Non facciamo da tramite né conserviamo questi dati. La tua API key resta sul tuo Mac. Il trattamento dei dati di Anthropic è regolato dall'<a href="https://www.anthropic.com/legal/privacy">Informativa privacy di Anthropic</a>. Questa funzione è disattivata per default.</p>
+
+<h3>4.2 Condivisione in rete locale</h3>
+<p>La funzione "Invia in LAN" (pulsante ✈) usa il framework MultipeerConnectivity di Apple per trovare altri Mac che eseguono Sticky Pro sulla stessa rete Wi-Fi e inviare una copia della nota. La comunicazione è cifrata end-to-end (tipo TLS) e resta dentro la tua rete locale. Niente internet coinvolto.</p>
+
+<h2>5. Elaborazione on-device</h2>
+<ul>
+    <li><strong>Voice-to-text</strong> (dettatura): elaborata offline dal framework Speech di Apple. L'audio non lascia mai il tuo Mac.</li>
+    <li><strong>OCR</strong> su immagini incollate: elaborato offline dal framework Vision di Apple. Le immagini non lasciano mai il tuo Mac.</li>
+    <li><strong>Cifratura</strong> (note private): AES-GCM 256-bit con chiave salvata nel Portachiavi macOS, protetta da Touch ID. La chiave non lascia mai il tuo Mac. I dati biometrici sono gestiti da Apple, mai accessibili a noi.</li>
+</ul>
+
+<h2>6. Permessi che Sticky Pro richiede</h2>
+<ul>
+    <li><strong>Microfono</strong>: solo quando inizi una nota vocale (🎤) o la dettatura (💬).</li>
+    <li><strong>Fotocamera</strong>: solo quando scatti una foto (📷) o registri un video (🎥).</li>
+    <li><strong>Riconoscimento vocale</strong>: per dettatura e trascrizione delle note audio.</li>
+    <li><strong>Rete locale</strong>: per la condivisione in LAN.</li>
+    <li><strong>Notifiche</strong>: per snooze/promemoria.</li>
+</ul>
+<p>Puoi revocare ognuno di questi in qualsiasi momento da Impostazioni di Sistema → Privacy e Sicurezza.</p>
+
+<h2>7. Niente tracking, niente analytics</h2>
+<p>Sticky Pro non include alcun SDK di analytics, crash reporter, advertising identifier o telemetria. Non sappiamo chi usa l'app né come la usa.</p>
+
+<h2>8. Privacy dei minori</h2>
+<p>Sticky Pro non è rivolta a minori di 13 anni. Non raccoglie dati personali.</p>
+
+<h2>9. Conservazione e cancellazione dei dati</h2>
+<p>Puoi eliminare ogni nota in qualsiasi momento. La rimozione dell'app dal Mac elimina tutti i dati locali. I dati sincronizzati su iCloud si rimuovono dal tuo account Apple ID; consulta la documentazione Apple per gestire i dati iCloud.</p>
+
+<h2>10. Modifiche a questa informativa</h2>
+<p>Eventuali modifiche saranno riportate in questa pagina con la data di "Ultimo aggiornamento" aggiornata.</p>
+
+<h2>11. Contatti</h2>
+<p>Per domande sulla privacy scrivi a <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+</section>
+
+<!-- ============== FRANÇAIS ============== -->
+<section id="fr">
+<h1>Sticky Pro — Politique de confidentialité</h1>
+<p class="meta">Date d'entrée en vigueur : 2026-05-16 · Dernière mise à jour : 2026-05-16 · Version 1.5</p>
+
+<div class="summary">
+    <strong>Version courte :</strong> Sticky Pro enregistre vos notes localement sur votre Mac et (facultativement) les synchronise via votre propre compte Apple iCloud. Nous n'exploitons aucun serveur, ne collectons aucune statistique, ne vous suivons pas et ne voyons pas vos notes.
+</div>
+
+<h2>1. Qu'est-ce que Sticky Pro</h2>
+<p>Sticky Pro est une application de notes adhésives pour macOS. Elle est publiée par <strong>Massimo Del Pizzo</strong> (Italie). Contact : <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+
+<h2>2. Données collectées</h2>
+<p><strong>Aucune directement.</strong> Sticky Pro ne communique avec aucun serveur exploité par l'éditeur. Toutes les données créées dans l'app restent sur votre Mac, sauf pour les fonctions optionnelles décrites ci-dessous.</p>
+
+<h2>3. Où vos notes sont stockées</h2>
+<ul>
+    <li><strong>Stockage local</strong> (toujours) : métadonnées des notes dans <code>UserDefaults</code> ; fichiers audio/photo/vidéo dans <code>~/Library/Application Support/StickyPro/</code>.</li>
+    <li><strong>Synchronisation iCloud</strong> (facultative, contrôlée par macOS) : si vous êtes connecté à iCloud et qu'iCloud Drive est activé, les métadonnées sont synchronisées via <code>NSUbiquitousKeyValueStore</code> d'Apple et les fichiers via votre conteneur privé iCloud Documents <code>iCloud.com.massimo.StickyPro</code>. Les données transitent par iCloud d'Apple — nous ne les voyons jamais. iCloud est régi par la <a href="https://www.apple.com/legal/privacy/">politique de confidentialité d'Apple</a>.</li>
+</ul>
+
+<h2>4. Fonctions optionnelles impliquant des tiers</h2>
+
+<h3>4.1 Actions IA (Anthropic Claude)</h3>
+<p>Si vous fournissez votre propre clé API Anthropic dans les Réglages, les actions IA (⌘J) envoient le texte sélectionné ou le contenu de la note aux serveurs d'Anthropic. Nous ne relayons ni ne stockons ces données. Votre clé API reste sur votre Mac. Le traitement par Anthropic est régi par la <a href="https://www.anthropic.com/legal/privacy">politique de confidentialité d'Anthropic</a>. Cette fonction est désactivée par défaut.</p>
+
+<h3>4.2 Partage sur réseau local</h3>
+<p>La fonction « Envoyer sur le LAN » (bouton ✈) utilise le framework MultipeerConnectivity d'Apple pour trouver les autres Mac exécutant Sticky Pro sur le même réseau Wi-Fi et envoyer une copie de la note. La communication est chiffrée de bout en bout (type TLS) et reste à l'intérieur de votre réseau local. Aucun internet impliqué.</p>
+
+<h2>5. Traitement sur l'appareil</h2>
+<ul>
+    <li><strong>Reconnaissance vocale</strong> (dictée) : traitée hors ligne par le framework Speech d'Apple. L'audio ne quitte jamais votre Mac.</li>
+    <li><strong>OCR</strong> sur images collées : traité hors ligne par le framework Vision d'Apple. Les images ne quittent jamais votre Mac.</li>
+    <li><strong>Chiffrement</strong> (notes privées) : AES-GCM 256 bits avec clé stockée dans Trousseau d'accès macOS, protégée par Touch ID. La clé ne quitte jamais votre Mac. Les données biométriques sont gérées par Apple, jamais accessibles par nous.</li>
+</ul>
+
+<h2>6. Autorisations demandées par Sticky Pro</h2>
+<ul>
+    <li><strong>Micro</strong> : uniquement lorsque vous commencez une note vocale (🎤) ou une dictée (💬).</li>
+    <li><strong>Caméra</strong> : uniquement lorsque vous prenez une photo (📷) ou enregistrez une vidéo (🎥).</li>
+    <li><strong>Reconnaissance vocale</strong> : pour la dictée et la transcription des notes audio.</li>
+    <li><strong>Réseau local</strong> : pour le partage LAN.</li>
+    <li><strong>Notifications</strong> : pour les rappels/snooze.</li>
+</ul>
+<p>Vous pouvez révoquer chacune de ces autorisations à tout moment dans Réglages Système → Confidentialité et sécurité.</p>
+
+<h2>7. Aucun tracking, aucune analytique</h2>
+<p>Sticky Pro n'inclut aucun SDK d'analytique, rapporteur de crash, identifiant publicitaire ou télémétrie. Nous ne savons pas qui utilise l'app ni comment.</p>
+
+<h2>8. Confidentialité des mineurs</h2>
+<p>Sticky Pro n'est pas destinée aux mineurs de moins de 13 ans. Elle ne collecte aucune donnée personnelle.</p>
+
+<h2>9. Conservation et suppression des données</h2>
+<p>Vous pouvez supprimer toute note à tout moment. La suppression de l'app de votre Mac efface toutes les données locales. Les données synchronisées via iCloud sont gérées depuis votre compte Apple ID ; consultez la documentation Apple.</p>
+
+<h2>10. Modifications de cette politique</h2>
+<p>Toute modification sera reflétée sur cette page avec la date de « Dernière mise à jour » actualisée.</p>
+
+<h2>11. Contact</h2>
+<p>Pour toute question sur la confidentialité : <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+</section>
+
+<!-- ============== ESPAÑOL ============== -->
+<section id="es">
+<h1>Sticky Pro — Política de privacidad</h1>
+<p class="meta">Fecha de entrada en vigor: 2026-05-16 · Última actualización: 2026-05-16 · Versión 1.5</p>
+
+<div class="summary">
+    <strong>Versión corta:</strong> Sticky Pro guarda tus notas localmente en tu Mac y (opcionalmente) las sincroniza a través de tu propia cuenta Apple iCloud. No operamos ningún servidor, no recopilamos analíticas, no te rastreamos, no vemos tus notas.
+</div>
+
+<h2>1. Qué es Sticky Pro</h2>
+<p>Sticky Pro es una aplicación de notas adhesivas para macOS. Publicada por <strong>Massimo Del Pizzo</strong> (Italia). Contacto: <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+
+<h2>2. Datos que recopilamos</h2>
+<p><strong>Ninguno directamente.</strong> Sticky Pro no se comunica con ningún servidor operado por el editor. Todos los datos creados en la app permanecen en tu Mac, salvo las funciones opcionales descritas a continuación.</p>
+
+<h2>3. Dónde se almacenan tus notas</h2>
+<ul>
+    <li><strong>Almacenamiento local</strong> (siempre): metadatos en <code>UserDefaults</code>; archivos audio/foto/vídeo en <code>~/Library/Application Support/StickyPro/</code>.</li>
+    <li><strong>Sincronización iCloud</strong> (opcional, controlada por macOS): si has iniciado sesión en iCloud y iCloud Drive está activo, los metadatos se sincronizan vía <code>NSUbiquitousKeyValueStore</code> de Apple y los archivos en tu contenedor privado iCloud Documents <code>iCloud.com.massimo.StickyPro</code>. Los datos pasan por iCloud de Apple — nunca los vemos. iCloud se rige por la <a href="https://www.apple.com/legal/privacy/">Política de privacidad de Apple</a>.</li>
+</ul>
+
+<h2>4. Funciones opcionales con terceros</h2>
+
+<h3>4.1 Acciones IA (Anthropic Claude)</h3>
+<p>Si proporcionas tu propia clave API de Anthropic en Ajustes, las acciones IA (⌘J) envían el texto seleccionado o el contenido de la nota a los servidores de Anthropic. No actuamos como intermediarios ni almacenamos estos datos. Tu clave API permanece en tu Mac. El tratamiento por Anthropic se rige por la <a href="https://www.anthropic.com/legal/privacy">Política de privacidad de Anthropic</a>. Esta función está desactivada por defecto.</p>
+
+<h3>4.2 Compartir en red local</h3>
+<p>La función "Enviar por LAN" (botón ✈) usa el framework MultipeerConnectivity de Apple para encontrar otros Mac que ejecuten Sticky Pro en la misma red Wi-Fi y enviar una copia de la nota. La comunicación está cifrada de extremo a extremo (tipo TLS) y permanece dentro de tu red local. Sin internet.</p>
+
+<h2>5. Procesamiento en el dispositivo</h2>
+<ul>
+    <li><strong>Voice-to-text</strong> (dictado): procesado sin conexión por el framework Speech de Apple. El audio nunca sale de tu Mac.</li>
+    <li><strong>OCR</strong> en imágenes pegadas: procesado sin conexión por el framework Vision de Apple. Las imágenes nunca salen de tu Mac.</li>
+    <li><strong>Cifrado</strong> (notas privadas): AES-GCM 256 bits con clave guardada en Llavero macOS, protegida por Touch ID. La clave nunca sale de tu Mac. Los datos biométricos los gestiona Apple, nunca accesibles para nosotros.</li>
+</ul>
+
+<h2>6. Permisos que Sticky Pro solicita</h2>
+<ul>
+    <li><strong>Micrófono</strong>: solo al iniciar una nota de voz (🎤) o el dictado (💬).</li>
+    <li><strong>Cámara</strong>: solo al hacer una foto (📷) o grabar un vídeo (🎥).</li>
+    <li><strong>Reconocimiento de voz</strong>: para dictado y transcripción de notas de audio.</li>
+    <li><strong>Red local</strong>: para compartir en LAN.</li>
+    <li><strong>Notificaciones</strong>: para snooze/recordatorios.</li>
+</ul>
+<p>Puedes revocar cualquiera de estos permisos en cualquier momento en Ajustes del Sistema → Privacidad y Seguridad.</p>
+
+<h2>7. Sin tracking, sin analíticas</h2>
+<p>Sticky Pro no incluye ningún SDK de analíticas, informe de errores, identificador publicitario o telemetría. No sabemos quién usa la app ni cómo.</p>
+
+<h2>8. Privacidad de menores</h2>
+<p>Sticky Pro no está dirigida a menores de 13 años. No recopila datos personales.</p>
+
+<h2>9. Conservación y eliminación de datos</h2>
+<p>Puedes eliminar cualquier nota en cualquier momento. Borrar la app del Mac elimina todos los datos locales. Los datos sincronizados en iCloud se gestionan desde tu cuenta Apple ID; consulta la documentación de Apple.</p>
+
+<h2>10. Modificaciones a esta política</h2>
+<p>Cualquier cambio se reflejará en esta página con la fecha de "Última actualización" actualizada.</p>
+
+<h2>11. Contacto</h2>
+<p>Para preguntas sobre privacidad: <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+</section>
+
+<!-- ============== DEUTSCH ============== -->
+<section id="de">
+<h1>Sticky Pro — Datenschutzerklärung</h1>
+<p class="meta">Datum des Inkrafttretens: 16.05.2026 · Letzte Aktualisierung: 16.05.2026 · Version 1.5</p>
+
+<div class="summary">
+    <strong>Kurzfassung:</strong> Sticky Pro speichert deine Notizen lokal auf deinem Mac und synchronisiert sie optional über dein eigenes Apple-iCloud-Konto. Wir betreiben keinen Server, sammeln keine Analyse-Daten, verfolgen dich nicht und sehen deine Notizen nicht.
+</div>
+
+<h2>1. Was Sticky Pro ist</h2>
+<p>Sticky Pro ist eine Klebezettel-App für macOS. Herausgegeben von <strong>Massimo Del Pizzo</strong> (Italien). Kontakt: <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+
+<h2>2. Erhobene Daten</h2>
+<p><strong>Direkt keine.</strong> Sticky Pro kommuniziert mit keinem vom Herausgeber betriebenen Server. Alle in der App erzeugten Daten bleiben auf deinem Mac — außer für die nachfolgend beschriebenen optionalen Funktionen.</p>
+
+<h2>3. Wo deine Notizen gespeichert werden</h2>
+<ul>
+    <li><strong>Lokale Speicherung</strong> (immer): Notiz-Metadaten in <code>UserDefaults</code>; Audio-/Foto-/Videodateien in <code>~/Library/Application Support/StickyPro/</code>.</li>
+    <li><strong>iCloud-Sync</strong> (optional, von macOS gesteuert): Wenn du bei iCloud angemeldet bist und iCloud Drive aktiv ist, werden Metadaten via Apples <code>NSUbiquitousKeyValueStore</code> und Mediendateien im privaten iCloud-Documents-Container <code>iCloud.com.massimo.StickyPro</code> synchronisiert. Die Daten fließen über Apple iCloud — wir sehen sie nie. iCloud unterliegt der <a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie von Apple</a>.</li>
+</ul>
+
+<h2>4. Optionale Funktionen mit Drittanbietern</h2>
+
+<h3>4.1 KI-Aktionen (Anthropic Claude)</h3>
+<p>Wenn du in den Einstellungen deinen eigenen Anthropic-API-Schlüssel hinterlegst, senden die KI-Aktionen (⌘J) den ausgewählten Text oder den Notizinhalt an die Server von Anthropic. Wir leiten diese Daten weder weiter noch speichern wir sie. Dein API-Schlüssel bleibt auf deinem Mac. Die Datenverarbeitung von Anthropic unterliegt der <a href="https://www.anthropic.com/legal/privacy">Datenschutzrichtlinie von Anthropic</a>. Diese Funktion ist standardmäßig deaktiviert.</p>
+
+<h3>4.2 Teilen im lokalen Netzwerk</h3>
+<p>Die Funktion „Über LAN senden" (Schalter ✈) verwendet Apples MultipeerConnectivity-Framework, um andere Macs zu finden, auf denen Sticky Pro im selben WLAN läuft, und eine Kopie der Notiz zu senden. Die Kommunikation ist Ende-zu-Ende verschlüsselt (TLS-artig) und bleibt innerhalb deines lokalen Netzwerks. Kein Internet beteiligt.</p>
+
+<h2>5. Verarbeitung auf dem Gerät</h2>
+<ul>
+    <li><strong>Sprache-zu-Text</strong> (Diktat): offline durch Apples Speech-Framework verarbeitet. Das Audio verlässt deinen Mac nie.</li>
+    <li><strong>OCR</strong> auf eingefügten Bildern: offline durch Apples Vision-Framework verarbeitet. Die Bilder verlassen deinen Mac nie.</li>
+    <li><strong>Verschlüsselung</strong> (private Notizen): AES-GCM 256-Bit mit Schlüssel im macOS-Schlüsselbund, geschützt durch Touch ID. Der Schlüssel verlässt deinen Mac nie. Biometrische Daten werden von Apple verwaltet, niemals von uns abgerufen.</li>
+</ul>
+
+<h2>6. Berechtigungen, die Sticky Pro anfordert</h2>
+<ul>
+    <li><strong>Mikrofon</strong>: nur wenn du eine Sprachnotiz (🎤) oder ein Diktat (💬) startest.</li>
+    <li><strong>Kamera</strong>: nur wenn du ein Foto (📷) machst oder ein Video (🎥) aufnimmst.</li>
+    <li><strong>Spracherkennung</strong>: für Diktat und Transkription von Audionotizen.</li>
+    <li><strong>Lokales Netzwerk</strong>: für LAN-Sharing.</li>
+    <li><strong>Mitteilungen</strong>: für Snooze/Erinnerungen.</li>
+</ul>
+<p>Jede dieser Berechtigungen kannst du jederzeit in Systemeinstellungen → Datenschutz & Sicherheit widerrufen.</p>
+
+<h2>7. Kein Tracking, keine Analyse</h2>
+<p>Sticky Pro enthält keine Analyse-SDK, keinen Crash-Reporter, keine Werbe-ID und keine Telemetrie. Wir wissen nicht, wer die App nutzt oder wie.</p>
+
+<h2>8. Datenschutz für Kinder</h2>
+<p>Sticky Pro richtet sich nicht an Kinder unter 13 Jahren. Sie sammelt keine personenbezogenen Daten.</p>
+
+<h2>9. Aufbewahrung und Löschung der Daten</h2>
+<p>Du kannst jede Notiz jederzeit löschen. Das Entfernen der App vom Mac löscht alle lokalen Daten. Über iCloud synchronisierte Daten verwaltest du über dein Apple-ID-Konto; siehe Apples Dokumentation.</p>
+
+<h2>10. Änderungen an dieser Richtlinie</h2>
+<p>Jegliche Änderungen werden auf dieser Seite mit aktualisiertem Datum „Letzte Aktualisierung" reflektiert.</p>
+
+<h2>11. Kontakt</h2>
+<p>Für Datenschutzfragen schreibe an <a href="mailto:massimodelpizzo@gmail.com">massimodelpizzo@gmail.com</a>.</p>
+</section>
+
+<footer>
+    © 2026 Massimo Del Pizzo — Sticky Pro v1.5
+</footer>
+
+</body>
+</html>
